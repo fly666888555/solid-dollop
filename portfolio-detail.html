@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="作品详情 - 设计师个人作品集">
+    <title>作品详情 | 设计师个人作品集</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">设计师</div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="portfolio.html">作品展示</a></li>
+                <li><a href="resume.html">工作履历</a></li>
+                <li><a href="skills.html">个人能力</a></li>
+                <li><a href="contact.html">联系方式</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>作品详情</h1>
+            <p>深入了解我的设计理念和创作过程</p>
+        </div>
+    </section>
+
+    <section class="portfolio-detail-section">
+        <div class="container">
+            <div class="detail-content">
+                <div class="detail-image">
+                    <img id="detail-image" src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&q=80" alt="作品详情图">
+                </div>
+                <div class="detail-info">
+                    <h2 id="detail-title">网站设计项目</h2>
+                    <p id="detail-description">这是一个现代企业网站设计项目，专注于用户体验和视觉美感。项目包括首页、产品页、关于我们和联系页面的设计，使用了现代的设计趋势和技术。</p>
+                    
+                    <div class="detail-section">
+                        <h3>项目背景</h3>
+                        <p>客户需要一个全新的企业网站来展示他们的产品和服务。目标是创建一个既美观又实用的网站，能够有效传达品牌价值并提高转化率。</p>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h3>设计理念</h3>
+                        <p>采用极简主义设计风格，注重用户体验和可访问性。通过清晰的视觉层次和直观的导航结构，确保用户能够轻松找到所需信息。</p>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h3>技术实现</h3>
+                        <p>使用响应式设计技术，确保在各种设备上都能完美显示。采用现代前端技术栈，优化页面加载速度和用户体验。</p>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h3>项目成果</h3>
+                        <p>成功交付了一个高质量的企业网站，客户满意度达到95%。网站上线后，用户停留时间增加了40%，转化率提升了25%。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="back-button">
+                <a href="portfolio.html" class="btn">返回作品列表</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>设计师</h3>
+                    <p>专注创意设计，打造独特视觉体验</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="portfolio.html">作品展示</a></li>
+                        <li><a href="resume.html">工作履历</a></li>
+                        <li><a href="skills.html">个人能力</a></li>
+                        <li><a href="contact.html">联系方式</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系方式</h4>
+                    <p>邮箱: hello@designer.com</p>
+                    <p>电话: +86 123 4567 8910</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 设计师个人作品集. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        const portfolioData = {
+            1: {
+                title: '网站设计项目',
+                description: '这是一个现代企业网站设计项目，专注于用户体验和视觉美感。项目包括首页、产品页、关于我们和联系页面的设计，使用了现代的设计趋势和技术。',
+                image: 'image/work-page-1.jpg'
+            },
+            2: {
+                title: '移动应用UI设计',
+                description: '为移动应用设计的用户界面，注重简洁易用和视觉吸引力。包括登录页面、主界面、设置页面等多个界面的设计，适配不同屏幕尺寸。',
+                image: 'image/work-page-2.jpg'
+            },
+            3: {
+                title: '品牌识别设计',
+                description: '完整的品牌识别设计，包括标志、色彩系统、字体选择和应用场景。为客户创建了独特的品牌视觉形象，提升品牌认知度。',
+                image: 'image/work-page-3.jpg'
+            },
+            4: {
+                title: '电商网站设计',
+                description: '电商网站设计项目，专注于转化率优化和用户体验。包括产品展示、购物车、结账流程等关键页面的设计，提高用户购买转化率。',
+                image: 'image/work-page-4.jpg'
+            },
+            5: {
+                title: '后台管理界面',
+                description: '后台管理系统界面设计，注重效率和易用性。包括数据仪表盘、用户管理、内容管理等功能模块的设计，提升管理效率。',
+                image: 'image/work-page-5.jpg'
+            },
+            6: {
+                title: '游戏UI设计',
+                description: '游戏用户界面设计，创造沉浸式的游戏体验。包括游戏主界面、关卡选择、游戏内界面等设计，符合游戏风格和用户需求。',
+                image: 'image/work-page-6.jpg'
+            }
+        };
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id');
+        
+        if (id && portfolioData[id]) {
+            document.getElementById('detail-title').textContent = portfolioData[id].title;
+            document.getElementById('detail-description').textContent = portfolioData[id].description;
+            document.getElementById('detail-image').src = portfolioData[id].image;
+        }
+    </script>
+</body>
+</html>
